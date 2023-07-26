@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('/assets/mountains-universe-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  gap: 43.1px;
+  align-items: center;
+  padding: 40px 0 40px 72px;
+}
+
+.buttons {
+  display: flex;
+  gap: 53px;
+}
+
+a {
+  text-decoration: none;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.667px;
+  color: white;
+
+  cursor: pointer;
+}
+
+#app {
+  margin-top: 63px;
+  margin-left: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  color: #E1E1E6;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; 
+}
+
+p {
+  color: #E1E1E6;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+
+  max-width: 650px;
+}
+
+#h1Home {
+  display: grid;
+  margin-top: 172px;
+  place-content: center;
+  justify-items: center;
+  gap: 24px;
+  margin-right: 104px;
+}
+
+#more {
+  background: transparent;
+  padding: 12px 32px;
+  border-radius: 5px;
+  border: 2px solid white;
+  max-width: fit-content;
+
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+#more:hover {
+  background: #ffffff;
+  color: #02799D;
+}
