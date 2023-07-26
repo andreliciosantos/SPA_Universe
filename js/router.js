@@ -1,4 +1,4 @@
-import { changePage } from "./events.js"
+import { changePage} from "./events.js"
 
 export class Router {
   routes = {}
@@ -15,6 +15,7 @@ export class Router {
 
     this.handle()
 
+    console.log(event.target.href)
     changePage(this.routee)
   }
 
