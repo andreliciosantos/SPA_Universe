@@ -32,11 +32,16 @@ a {
 
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 21.667px;
-  color: white;
+  color: #C4C4CC;
 
   cursor: pointer;
+}
+
+.selected {
+  font-weight: 700;
+  color: white;
 }
 
 #app {
@@ -46,6 +51,7 @@ a {
   flex-direction: column;
   gap: 16px;
 }
+
 
 h1 {
   color: #E1E1E6;
